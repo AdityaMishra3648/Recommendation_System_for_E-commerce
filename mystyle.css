@@ -1,0 +1,32 @@
+.mycontainer{
+    display: flex;
+}
+.my-margin{
+    margin: 40px;
+}
+.my_product{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height: 100vh;
+    flex: auto;
+}
+.product{
+    border-radius: 1.2%;
+    height: 22vh;
+    width: 17vh;
+    background-color: blueviolet;
+    margin: 3px;
+    min-width: 24vw;
+    min-height: 20vw;
+}
+.product:hover{
+    transform:scale(1.05);
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+}
+/* .product:active{
+    background-color: blue;
+    transition-duration: 4ms;
+} */
+
