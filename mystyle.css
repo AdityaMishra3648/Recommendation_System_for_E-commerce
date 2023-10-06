@@ -14,7 +14,7 @@
 .product{
     border-radius: 1.2%;
     height: 22vh;
-    width: 17vh;
+    width: 20vh;
     background-color: rgb(44, 43, 43);
     margin: 3px;
     min-width: 24vw;
@@ -23,6 +23,11 @@
     overflow: hidden;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+@media(max-width: 900px) {
+    .product{
+        width: 47vw;
+    }
 }
 .product:hover{
     transform:scale(1.05);
@@ -45,8 +50,12 @@
 }
 .p_price{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2rem;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.my-corosel{
+    height: 22vh;
+    min-height: 22vw;
+}
