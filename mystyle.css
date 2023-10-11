@@ -16,7 +16,7 @@ body{
 }
 .product{
     border-radius: 1.2%;
-    height: 22vh;
+    height: 23vh;
     width: 20vh;
     background-color: rgb(30, 30, 33);
     border: 1.5px solid white;
@@ -44,11 +44,11 @@ body{
     transition-duration: 4ms;
 } */
 .product_img{
-    height: 50%;
+    height: 52%;
     width: 95%;
     /* background-image: url("sample_product.jpg"); */
     background-size: contain;
-    margin: 2%;
+    margin: 2% 2% 0px 2%;
     border-radius: 1px;
     border: 2px solid black;
     /* background-size: 50px 70px; */
