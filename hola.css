@@ -67,12 +67,17 @@ button{
 
 #footer{
 	background: #343A40;
-	margin-top: 30px;
+	margin-top: 5vh;
+	width: 100%;
 /*	margin-left: 10px;*/
 	overflow: hidden;
 	padding: 10px;
 	border: solid;
 	border-color: black;
 	color: white;
+	
 /*	display: flex;*/
+}
+.mar{
+	min-height: 67vh;
 }
