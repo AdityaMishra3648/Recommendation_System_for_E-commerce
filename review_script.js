@@ -8,8 +8,8 @@ re.addEventListener('click',()=>{
     <th><img src="A${val}.png" id="img"></th>
     <td>${text.value}</td>
 </tr>`;
-m.innerHTML = "Thanks for Contributing your review has been added in the bottom";
+m.innerHTML = "Thanks for Contributing.. your review has been added at the bottom temporarely and will be checked for authenticit before adding permanently";
 setTimeout(() => {
     m.innerHTML = "Contribute a Review";
-}, 4000);
+}, 8000);
 });
