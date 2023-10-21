@@ -12,4 +12,15 @@ m.innerHTML = "Thanks for Contributing.. your review has been added at the botto
 setTimeout(() => {
     m.innerHTML = "Contribute a Review";
 }, 8000);
+
+var params = {
+message:text.value,
+product:document.querySelector(".product-name").innerHTML
+};
+const service_id = "service_6sxn973";
+const template_id = "template_kdvk1wu";
+emailjs.send(service_id,template_id,params)
+.catch(err=>{
+    alert("some error occured");
+});
 });

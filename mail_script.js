@@ -1,5 +1,4 @@
 function sendmail(){
-    console.log("function called")
     var params = {
         seller_name : document.querySelector(".seller-name").innerHTML,
         my_name : document.querySelector(".my-name").value,

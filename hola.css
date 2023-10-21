@@ -57,8 +57,10 @@ button{
 }
 
 #img{
-	height: 70px;
-	width: 70px;
+	height: 8vh;
+	width: 8vh;
+	min-height: 80px;
+	min-width: 80px;
 	background:url('boat-stone-260-portable-bluetooth-speaker.jpg');
 	background-size: cover;
 	border-radius: 50%;
@@ -80,4 +82,7 @@ button{
 }
 .mar{
 	min-height: 67vh;
+}
+.ab{
+	font-size: 2vh;
 }
